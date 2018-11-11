@@ -8,7 +8,7 @@ const betRoutes = require("./api/routes/bets");
 const userRoutes = require('./api/routes/user');
 
 mongoose.connect(
-  'mongodb://jaejayab:' +
+  // mongodb connection string
     process.env.MONGO_ATLAS_PW +
     // mongodb connection strings
   {
